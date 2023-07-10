@@ -1,6 +1,7 @@
+import React from "react";
 
 const NotFoundPage: React.FC = () => {
-  const styles:React.CSSProperties = {
+  const styles: React.CSSProperties = {
     display: "flex",
     flexDirection: "column",
     alignItems: "center",

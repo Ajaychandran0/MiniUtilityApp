@@ -1,11 +1,11 @@
 import React from 'react'
 import ReactDOM from 'react-dom/client'
-import Taskify from './pages/Taskify/Taskify.tsx'
-import WeatherApp from "./pages/WeatherApp.tsx"
+import Taskify from './pages/Taskify/Taskify'
+import WeatherApp from "./pages/WeatherApp/WeatherApp"
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import './index.css'
-import Layout from './components/Layout.tsx';
-import PageNotFound from "./pages/PageNotFound.tsx"
+import Layout from './components/Layout';
+import PageNotFound from "./pages/PageNotFound"
 
 ReactDOM.createRoot(document.getElementById('root') as HTMLElement).render(
   <React.StrictMode>

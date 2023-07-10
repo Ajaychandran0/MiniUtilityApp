@@ -3,6 +3,7 @@ import './Taskify.css'
 import InputField from '../../components/Taskify/InputField'
 import { Todo } from '../../model'
 import TodoList from '../../components/Taskify/TodoList'
+import React from 'react'
 
 // React.FC => React.FunctionalComponent
 const Taskify: React.FC = () => {
