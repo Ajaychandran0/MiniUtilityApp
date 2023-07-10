@@ -2,6 +2,9 @@
     background-color: #001969;
     color: #fff;
     padding: 20px;
+    position: fixed;
+    width: 100%;
+    z-index: 1;
   }
   
   .header-container h1 {
