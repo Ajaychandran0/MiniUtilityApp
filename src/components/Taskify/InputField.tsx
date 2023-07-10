@@ -29,7 +29,7 @@ const InputField: React.FC<Props> = ({ todo, setTodo, handleAdd }) => {
                 value={todo}
                 onChange={handleChange}
             ></input>
-            <button className="input__submit" type="submit">Go</button>
+            <button style={{backgroundColor:"#1e66b9"}} className="input__submit" type="submit">Go</button>
         </form>
     )
 }

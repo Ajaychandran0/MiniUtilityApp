@@ -1,11 +1,11 @@
 import { useState } from 'react'
-import './App.css'
-import InputField from './components/InputField'
-import { Todo } from './model'
-import TodoList from './components/TodoList'
+import './Taskify.css'
+import InputField from '../../components/Taskify/InputField'
+import { Todo } from '../../model'
+import TodoList from '../../components/Taskify/TodoList'
 
 // React.FC => React.FunctionalComponent
-const App: React.FC = () => {
+const Taskify: React.FC = () => {
   const [todo, setTodo] = useState<string>("")
   const [todos, setTodos] = useState<Todo[]>([])
 
@@ -26,4 +26,4 @@ const App: React.FC = () => {
   )
 }
 
-export default App
+export default Taskify

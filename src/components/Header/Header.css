@@ -1,0 +1,44 @@
+.header-container {
+    background-color: #001969;
+    color: #fff;
+    padding: 20px;
+    width: 100vw;
+  }
+  
+  .header-container h1 {
+    font-size: 24px;
+    margin: 0;
+  }
+  
+  .header-container nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .header-container nav ul li {
+    display: inline-block;
+    margin-right: 25px;
+  }
+  
+  .header-container nav ul li a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  .header-container nav ul li a:hover {
+    text-decoration: underline;
+  }
+
+  .navbar{
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .link{
+    color: #fff;
+    text-decoration: none;
+    font-weight: bolder;
+    font-size: 20px;
+  }
+  

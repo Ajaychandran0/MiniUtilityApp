@@ -1,4 +1,4 @@
-import { Todo } from "../model"
+import { Todo } from "../../model"
 import { AiFillDelete, AiFillEdit } from "react-icons/ai"
 import { MdDone } from "react-icons/md"
 import { useEffect, useRef, useState } from "react"
@@ -52,7 +52,7 @@ const SingleTodo: React.FC<Props> = ({ todo, todos, setTodos }) => {
                 )
             )}
 
-            <div>
+            <div style={{display:"flex"}}>
                 <span className="icon" onClick={() => {
                     if (!edit && !todo.isDone) {
                         setEdit(!edit)

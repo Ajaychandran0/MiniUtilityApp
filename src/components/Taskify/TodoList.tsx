@@ -1,4 +1,4 @@
-import { Todo } from "../model"
+import { Todo } from "../../model"
 import SingleTodo from "./SingleTodo";
 import "./styles.css"
 
