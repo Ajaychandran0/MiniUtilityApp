@@ -20,7 +20,7 @@
   
   .header-container nav ul li {
     display: inline-block;
-    margin-right: 25px;
+    /* margin-right: 25px; */
   }
   
   .header-container nav ul li a {
