@@ -17,7 +17,7 @@ const Header: React.FC = () => {
           </li>
          
           <li>
-            <Link to="/url-generator">URL Generator</Link>
+            <Link to="/password_generator">Password Generator</Link>
           </li>
         </ul>
       </nav>
